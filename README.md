@@ -8,21 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{404-not-found-plum.vercel.app/}">
+    <a href="https://404-not-found-plum.vercel.app/">
       Demo
     </a>
   </h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
