@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <title>Devchallenges</title>
+
+    <style>
+      * {
+        box-sizing:border-box;
+      }
+
+      .header {
+        margin: auto;
+        width: 90%;
+
+        font-family: Inconsolata;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+      }
+
+      .footer {
+        clear: both;
+        text-align: center;
+        width: 100%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      .main {
+        margin: 9vh auto;
+        height: 70vh;
+        width: 90%;
+      }
+
+      .main-left {
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+
+      .main-right {
+        width: 50%;
+        float: left;
+        height: 100%;
+      }
+      
+      .content-text {
+        max-width: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+      }
+
+      img {
+        max-width: 80%;
+        height: auto;
+      }
+
+      @media screen and (max-width:800px) {
+        .main-left, .main-right {
+          width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+
+      .head-text p {
+        margin: 0;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: -0.035em;
+      }
+
+      .btn-back {
+        padding: 15px;
+        color: white;
+        border: 0;
+        background-color: #333333;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <p>404 NOT FOUND</p>
+    </div>
+    <div class="main">
+      <div class="main-left">
+        <img src="Scarecrow.png">
+      </div>
+      <div class="main-right">
+        <div class="head-text">
+          <p>I have bad news for you</p>
+        </div>
+        <div class="content-text">
+          <p>The page you are looking for might be removed or is temporarily unavailable</p>
+        </div>
+        <div>
+          <a href="index.html">
+            <button class="btn-back">BACK TO HOMEPAGE</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Lompong @ DevChallenges.io</p>
+    </div>
+  </body>
+</html>
